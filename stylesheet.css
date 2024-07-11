@@ -1,0 +1,107 @@
+body {
+  margin: 0 auto;
+  font-family: 'Helvetica';
+}
+.container img {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+h2 {
+  color: #ffffff;
+  display: inline-block;
+  padding: 25px;
+}
+header {
+  position: fixed;
+}
+
+
+/*--Home Page--*/
+#beer {
+  width: 400px;
+  position: fixed;
+  margin: 300px 0px 0px 200px;
+  float: left;
+}
+#brew {
+  width: 400px;
+  position: fixed;
+  margin: 300px 0px 0px 650px;
+  float: left;
+}
+#beer img {
+  max-width: 400px;
+}
+#brew img {
+  max-width: 400px;
+}
+#beer h1 {
+  position: absolute;
+  margin: 100px 0px 0px 125px;
+}
+#brew h1 {
+  position: absolute;
+  margin: 100px 0px 0px 60px;
+}
+/*--End Home Page--*/
+
+.brewery-name {
+  position: fixed;
+  color: #ffffff;
+}
+.brewery {
+  position: fixed;
+  color: #ffffff;
+}
+.beer-name {
+  position: fixed;
+  color: #ffffff;
+}
+.beer {
+  position: fixed;
+  color: #ffffff;
+}
+.beers {
+  position: fixed;
+  color: #ffffff;
+}
+
+
+
+
+
+
+/*--Registration Form--*/
+.register {
+  position: fixed;
+  margin: 200px 0px 0px 350px;
+  color: #ffffff;
+  font-size: 18px;
+}
+input {
+  height: 25px;
+  width: 200px;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.form-errors {
+  color: #000000;
+  list-style:none;
+}
+.form-error {
+  border-left: 2px solid red;
+  padding-left:10px;
+  margin-top:3px;
+  background-color: #ffffff;
+}
+/*--End Registration Form--*/
