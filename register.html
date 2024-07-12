@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<div class="container">
+  <img src="images/bga.jpg">
+  <header>
+    <a href="index.html"><h2>Home</h2></a>
+    <a href="beer.html"><h2>Beer</h2></a>
+    <a href="breweries.html"><h2>Breweries</h2></a>
+    <a href="contact.html"><h2>Contact</h2></a>
+    <a href="register.html"><h2>Register</h2></a>
+  </header>
+  <div class="register">
+      <div class="name form-group">
+        <input type="text" data-error-message="Please enter your name" data-validate="not-blank" placeholder="Name" id="name" max-length="50"/>
+      </div><br/>
+      <div class="email-address form-group">
+        <input data-error-message="Please enter a valid email address" id="email-address" type="text" data-validate="email" placeholder="Email Address"/>
+      </div><br/>
+      <div class="brewery-name form-group">
+        <input data-error-message="Please enter a brewery name" id="brew-name" type="text" data-validate="not-blank" placeholder="Brewery Name"/>
+      </div><br/><br/>
+      <div id="counter"><span id="count"></span>/250</div>
+      <textarea id="message" placeholder="Enter a description of your brewery" maxlength="250"></textarea>
+      <br/><br/>
+      <button id="submit">Send Message</button>
+      <ul class="form-errors"></ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
